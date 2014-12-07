@@ -1,0 +1,68 @@
+::selection {
+  background: #0080FF;
+  text-shadow: none !important;
+}
+body {
+  position:relative;
+  background-color: #eb1414;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+#container {
+  -webkit-transition: -webkit-transform 1.5s ease-in-out;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.interlace {
+position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/interlace.png) top left repeat;
+  width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+#container {
+  padding: 1em 1.5em 1em 1em;
+  text-shadow: 0 0 5px #C8C8C8;
+  opacity: 1;
+  color:white;
+  /*overflow: hidden;
+  white-space: nowrap;*/
+
+  /*box-shadow: 10px 5px 20px rgba(255,255,255,0.2) inset,
+              -10px -5px 20px rgba(255,255,255,0.2) inset;*/
+  border-radius: 50px;
+}
+
+header {
+font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	}
+
+a:link {
+		color: #ffffff;
+}
+
+a:visited {
+		color: #ffffff;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+#topcorner {
+	position:absolute;
+	top:5;
+	right:8;
+}
